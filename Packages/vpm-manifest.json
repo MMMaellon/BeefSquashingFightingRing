@@ -3,8 +3,14 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.28"
     },
+    "com.mmmaellon.smartobjectsync": {
+      "version": "3.10.11"
+    },
+    "com.mmmaellon.plate-tectonics": {
+      "version": "2.1.2"
+    },
     "com.vrchat.worlds": {
-      "version": "3.5.1"
+      "version": "3.5.2"
     }
   },
   "locked": {
@@ -12,14 +18,34 @@
       "version": "0.1.28",
       "dependencies": {}
     },
-    "com.vrchat.worlds": {
-      "version": "3.5.1",
+    "com.cyan.playerobjectpool": {
+      "version": "1.1.2",
       "dependencies": {
-        "com.vrchat.base": "3.5.1"
+        "com.vrchat.worlds": "^3.1.x",
+        "com.vrchat.udonsharp": "^1.1.x"
+      }
+    },
+    "com.mmmaellon.smartobjectsync": {
+      "version": "3.10.11",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4.0"
+      }
+    },
+    "com.mmmaellon.plate-tectonics": {
+      "version": "2.1.2",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.2.0",
+        "com.cyan.playerobjectpool": "^1.1.2"
+      }
+    },
+    "com.vrchat.worlds": {
+      "version": "3.5.2",
+      "dependencies": {
+        "com.vrchat.base": "3.5.2"
       }
     },
     "com.vrchat.base": {
-      "version": "3.5.1",
+      "version": "3.5.2",
       "dependencies": {}
     }
   }

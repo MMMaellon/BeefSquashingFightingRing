@@ -1,0 +1,26 @@
+{
+    "name": "com.mmmaellon.bok-fights",
+    "displayName": "Bok Fights",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "",
+    "url": "https://github.com/MMMaellon/BokFights.git",
+    "dependencies": {},
+    "gitDependencies": {},
+    "author": {
+        "name": "MMMaellon",
+        "email": "mmmaellon@gmail.com",
+        "url": "https://twitter.com/MMMaellon"
+    },
+    "vpmDependencies": {
+        "com.vrchat.worlds": "^3.5.2",
+        "com.mmmaellon.smartobjectsync": "^3.10.11"
+    },
+    "samples": [
+        {
+            "displayName": "Bok Fights Example Scene",
+            "description": "An example scene showing off the capabilities of Bok Fights.",
+            "path": "Samples~/Example"
+        }
+    ]
+}
