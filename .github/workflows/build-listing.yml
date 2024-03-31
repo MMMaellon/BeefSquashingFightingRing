@@ -1,7 +1,7 @@
 name: Build Repo Listing
 
 env:
-  packageName: com.mmmaellon.drama-resolving-fighting-ring
+  packageName: com.mmmaellon.beef-squashing-fighting-ring
   listPublishDirectory: Website
   pathToCi: ci
   

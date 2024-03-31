@@ -1163,7 +1163,7 @@ PrefabInstance:
     - target: {fileID: 3747009556322355591, guid: 2f3551f3e5a6fe6469631e0e85378e52,
         type: 3}
       propertyPath: m_Name
-      value: DramaResolvingFightingRing
+      value: BeefSquashingFightingRing
       objectReference: {fileID: 0}
     - target: {fileID: 4050092494454763370, guid: 2f3551f3e5a6fe6469631e0e85378e52,
         type: 3}

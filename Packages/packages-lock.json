@@ -6,8 +6,8 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.mmmaellon.drama-resolving-fighting-ring": {
-      "version": "file:com.mmmaellon.drama-resolving-fighting-ring",
+    "com.mmmaellon.beef-squashing-fighting-ring": {
+      "version": "file:com.mmmaellon.beef-squashing-fighting-ring",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

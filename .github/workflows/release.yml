@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches: main
-    paths: Packages/com.mmmaellon.drama-resolving-fighting-ring/**
+    paths: Packages/com.mmmaellon.beef-squashing-fighting-ring/**
 
 env:
-  packageName: "com.mmmaellon.drama-resolving-fighting-ring"
+  packageName: "com.mmmaellon.beef-squashing-fighting-ring"
 
 permissions:
   contents: write
