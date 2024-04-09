@@ -52,7 +52,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5273,9 +5273,10 @@ MonoBehaviour:
   animator: {fileID: 4774108980933082267}
   sync: {fileID: 2848531811239601887}
   vel_center: {fileID: 4183261396147633770}
-  fighter: {fileID: 1034065293296845206}
   hitParticles: {fileID: 6421460296878461009}
   hitSound: {fileID: 6384362675224868572}
+  base_attack_power: 0
+  additional_buff: 0
 --- !u!114 &89198594902389118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5492,6 +5493,7 @@ MonoBehaviour:
   start_transform: {fileID: 329297376330405565}
   chair: {fileID: 3295410667732522852}
   rigid: {fileID: 8820884539236699732}
+  capsule_collider: {fileID: 6386826411035685435}
   animator: {fileID: 3246862881874464676}
   nameplate: {fileID: 0}
   id: 0

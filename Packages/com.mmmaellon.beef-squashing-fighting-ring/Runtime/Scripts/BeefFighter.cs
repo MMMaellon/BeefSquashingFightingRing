@@ -42,7 +42,10 @@ namespace MMMaellon.BeefSquashingFightingRing
         }
         [System.NonSerialized, UdonSynced]
         public Vector3 attack_vel;
-
+        [Header("Raycasts for checking if you're grounded. Depends on size of your map, so play with these if you can't move")]
+        public float grounded_check_height_offset = 0.04f;
+        public float grounded_check_radius_offset = 0.95f;
+        public float grounded_check_distance = 0.04f;
         public int id;
         public VRCPlayerApi vrc_player = null;
         [System.NonSerialized]
@@ -167,6 +170,9 @@ namespace MMMaellon.BeefSquashingFightingRing
             vrc_player.SetAvatarEyeHeightMinimumByMeters(fight_handler.fighter_height);
             vrc_player.SetAvatarEyeHeightByMeters(fight_handler.fighter_height);
             weapon.sync.pickupable = true;
+            input = Vector2.zero;
+            turned = false;
+            lookH = 0;
         }
 
         public void OnGameEnd()
@@ -386,8 +392,7 @@ namespace MMMaellon.BeefSquashingFightingRing
             }
 
             moveRotation = Quaternion.FromToRotation(Vector3.forward, playerForward);
-
-            grounded = Physics.CapsuleCast(transform.position + capsule_collider.center + Vector3.up * capsule_collider.height / 2f, transform.position + capsule_collider.center + Vector3.down * capsule_collider.height / 2f, capsule_collider.radius, Vector3.down, 0.02f);
+            grounded = Physics.CapsuleCast(transform.position + Vector3.up * grounded_check_height_offset, transform.position + Vector3.up * (capsule_collider.height - grounded_check_height_offset), capsule_collider.radius * grounded_check_radius_offset, Vector3.down, grounded_check_distance, floor_layer);
             if (grounded && last_attacked + 0.5f < Time.timeSinceLevelLoad)
             {
                 moveInfluence = (input.y * (moveRotation * Vector3.forward) + input.x * (moveRotation * Vector3.right)) * fight_handler.player_speed;
