@@ -10024,6 +10024,7 @@ MonoBehaviour:
   preventStealWhileAttachedToPlayer: 1
   respawnIntoStartingState: 1
   startingState: {fileID: 0}
+  checkSyncTimes: 0
   pickup: {fileID: 4666076164823185004}
   rigid: {fileID: 7510555651151068682}
   states: []
@@ -35213,7 +35214,7 @@ MonoBehaviour:
   kill_floor: {fileID: 5557600618842782313}
   kill_distance: 10
   winner_name: {fileID: 7600912222171435501}
-  fight_duration: 60
+  fight_duration: 90
   starting_damage: 0.2
   damage_per_attack: 0.03
   fighter_height: 0.2
@@ -70642,6 +70643,7 @@ MonoBehaviour:
   preventStealWhileAttachedToPlayer: 1
   respawnIntoStartingState: 1
   startingState: {fileID: 0}
+  checkSyncTimes: 0
   pickup: {fileID: 4709034455467922363}
   rigid: {fileID: 1218892421798967889}
   states: []
@@ -71094,6 +71096,7 @@ MonoBehaviour:
   preventStealWhileAttachedToPlayer: 1
   respawnIntoStartingState: 1
   startingState: {fileID: 0}
+  checkSyncTimes: 0
   pickup: {fileID: 6376863369461491470}
   rigid: {fileID: 4635020905510165238}
   states: []
@@ -71413,6 +71416,7 @@ MonoBehaviour:
   preventStealWhileAttachedToPlayer: 1
   respawnIntoStartingState: 1
   startingState: {fileID: 0}
+  checkSyncTimes: 0
   pickup: {fileID: 2195009354412540870}
   rigid: {fileID: 3672707069100185246}
   states: []

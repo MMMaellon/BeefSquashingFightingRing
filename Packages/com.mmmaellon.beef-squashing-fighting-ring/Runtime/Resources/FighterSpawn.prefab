@@ -5195,6 +5195,7 @@ MonoBehaviour:
   preventStealWhileAttachedToPlayer: 1
   respawnIntoStartingState: 1
   startingState: {fileID: 0}
+  checkSyncTimes: 0
   pickup: {fileID: 4558802774608607308}
   rigid: {fileID: 7377340268333386722}
   states: []
@@ -5275,7 +5276,7 @@ MonoBehaviour:
   vel_center: {fileID: 4183261396147633770}
   hitParticles: {fileID: 6421460296878461009}
   hitSound: {fileID: 6384362675224868572}
-  base_attack_power: 0
+  base_attack_power: 1
   additional_buff: 0
 --- !u!114 &89198594902389118
 MonoBehaviour:
@@ -5496,6 +5497,9 @@ MonoBehaviour:
   capsule_collider: {fileID: 6386826411035685435}
   animator: {fileID: 3246862881874464676}
   nameplate: {fileID: 0}
+  grounded_check_height_offset: 0.04
+  grounded_check_radius_offset: 0.95
+  grounded_check_distance: 0.04
   id: 0
   floor_layer:
     serializedVersion: 2

@@ -76,7 +76,7 @@ namespace MMMaellon.BeefSquashingFightingRing
             }
         }
 
-        public float fight_duration = 60f;
+        public float fight_duration = 90f;
         public float starting_damage = 0.2f;
         public float damage_per_attack = 0.03f;
         public float fighter_height = 0.2f;

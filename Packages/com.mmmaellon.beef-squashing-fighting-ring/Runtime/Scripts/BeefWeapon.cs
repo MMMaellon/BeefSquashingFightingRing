@@ -17,7 +17,7 @@ namespace MMMaellon.BeefSquashingFightingRing
         public Transform vel_center;
         public ParticleSystem hitParticles;
         public AudioSource hitSound;
-        public float base_attack_power = 0f;
+        public float base_attack_power = 1f;
         [System.NonSerialized, UdonSynced, FieldChangeCallback(nameof(slashes))]
         public bool _slashes;
         public bool slashes
@@ -174,6 +174,15 @@ namespace MMMaellon.BeefSquashingFightingRing
             Vector3 b = (sumy * sumx2 - sumx * sumxy) / denom;
 
             return m * x[n - 1] + b;
+        }
+
+        public Vector3 LastVelocity()
+        {
+            if (record_index == 0)
+            {
+                return recorded_velocities[recorded_velocities.Length - 1];
+            }
+            return recorded_velocities[record_index - 1];
         }
 
 #if !COMPILER_UDONSHARP && UNITY_EDITOR

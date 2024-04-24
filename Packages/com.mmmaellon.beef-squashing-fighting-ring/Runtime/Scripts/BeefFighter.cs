@@ -310,7 +310,8 @@ namespace MMMaellon.BeefSquashingFightingRing
                 return;
             }
             last_hit = Time.timeSinceLevelLoad;
-            temp_attack_vel = attacker.CalcLinearRegressionOfVelocity() - rigid.velocity;
+            // temp_attack_vel = attacker.CalcLinearRegressionOfVelocity();
+            temp_attack_vel = attacker.LastVelocity();
             if (temp_attack_vel.magnitude < fight_handler.min_swing_vel)
             {
                 return;

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3840
     height: 2077
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: VRChat SDK
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 855
     height: 1414
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 1263
     width: 1264
     height: 764
-  m_MinSize: {x: 276, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -202,15 +202,15 @@ MonoBehaviour:
     y: 1414
     width: 2576
     height: 613
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 27}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 27}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,8 +326,8 @@ MonoBehaviour:
     y: 0
     width: 1721
     height: 1414
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 26}
   m_Panes:
   - {fileID: 26}
@@ -681,7 +681,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 40762
+  m_LastSelectedObjectID: 36136
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -846,7 +846,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime
+    - Assets/MMMaellon/ExampleScene/VRCDefaultWorldScene
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -854,16 +854,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime
+  - Assets/MMMaellon/ExampleScene/VRCDefaultWorldScene
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Archive\BeefSquashingFightingRing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 046a0000
-    m_LastClickedID: 27140
-    m_ExpandedIDs: 00000000665c0000ec690000ee690000f0690000f2690000f4690000f6690000f8690000fa690000fc690000fe690000006a0000026a0000046a0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 9c180100
+    m_LastClickedID: 71836
+    m_ExpandedIDs: 00000000665c0000ec690000ee690000f0690000f2690000f4690000f6690000f8690000fa690000fc690000fe690000006a0000026a0000046a0000446f00005e6f00009e6f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -916,10 +916,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: deb1ffff
-    m_LastClickedInstanceID: -20002
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300003266000016660000fe650000f48a0000946503006a66030056a60100bea60100002e0400c6a0030016bb040088e40400fa0d0500e69f0000a08701000a5400002a9d0000a0740000a4a60000a0f40000405f000000000000a2f5000022200100
+    m_ExpandedInstanceIDs: c62300003266000016660000fe650000f48a0000946503006a66030056a60100bea60100002e0400c6a0030016bb040088e40400fa0d0500e69f0000a08701000a5400002a9d0000a0740000a4a60000a0f40000405f000000000000a2f50000222001005c640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -988,7 +988,7 @@ MonoBehaviour:
     m_CachedPref: 227
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 27488
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -1035,21 +1035,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6faffff44600000
+      m_ExpandedIDs: 96a4fcfff2a4fcff30aafcff64c0fcffd2c9fcff66d6fcffc2d6fcff8cdefcffc49afdffca9afdffd89afdffe49afdff7041ffffcc41ffff6849ffffe8f8ffffecf8ffffccfaffffd6fafffff4ffffff446000001c8d0000488d0000828e0000f68e00001c8f0000468f0000748f0000e68f00009a900000d090000018910000e2180100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: FighterSpawn
+        m_OriginalName: FighterSpawn
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -35832
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -1416,9 +1416,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.14583953, y: 0.1559992, z: -0.3799709}
+    m_Target: {x: 1.0282403, y: 0.7565795, z: -1.6697758}
     speed: 2
-    m_Value: {x: 0.14583953, y: 0.1559992, z: -0.3799709}
+    m_Value: {x: 1.0282403, y: 0.7565795, z: -1.6697758}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1464,13 +1464,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22055414, y: -0.47156358, z: 0.12287412, w: -0.8445902}
+    m_Target: {x: -0.01976034, y: -0.80668145, z: 0.026792372, w: -0.58956647}
     speed: 2
-    m_Value: {x: -0.22061516, y: -0.47169402, z: 0.12290811, w: -0.84482384}
+    m_Value: {x: -0.019765956, y: -0.80691075, z: 0.026799986, w: -0.589734}
   m_Size:
-    m_Target: 1.4209908
+    m_Target: 1.7672273
     speed: 2
-    m_Value: 1.4209908
+    m_Value: 1.6911266
   m_Ortho:
     m_Target: 0
     speed: 2
