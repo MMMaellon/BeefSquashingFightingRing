@@ -63,3 +63,7 @@ Assets/PackageMakerWindowData.asset*
 .idea
 .vscode
 Assets/SerializedUdonPrograms/*
+
+# Apparently they crash people
+*.blend
+*.blend1
