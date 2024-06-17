@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3840
     height: 2077
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: VRChat SDK
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 82
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -846,7 +846,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime/Scripts
+    - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime/Resources/CartoonBoxingRing_ByCartoonPropsOnSketchfab/source/BoxingEnvironment
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -854,16 +854,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime/Scripts
+  - Packages/com.mmmaellon.beef-squashing-fighting-ring/Runtime/Resources/CartoonBoxingRing_ByCartoonPropsOnSketchfab/source/BoxingEnvironment
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Archive\BeefSquashingFightingRing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b06d0000
-    m_LastClickedID: 28080
-    m_ExpandedIDs: 00000000665c00001e6a0000206a0000226a0000246a0000266a0000286a00002a6a00002c6a00002e6a0000306a0000326a0000346a0000366a0000386a00003a6a000000ca9a3bffffff7f
+    m_SelectedIDs: 766d0000
+    m_LastClickedID: 28022
+    m_ExpandedIDs: 00000000685c00003c6a00003e6a0000406a0000426a0000446a0000466a0000486a00004a6a00004c6a00004e6a0000506a0000526a0000546a0000566a0000586a00007a6a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -891,7 +891,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000665c00001e6a0000206a0000226a0000246a0000266a0000286a00002a6a00002c6a00002e6a0000306a0000326a0000346a0000366a0000386a00003a6a0000
+    m_ExpandedIDs: 00000000685c00003c6a00003e6a0000406a0000426a0000446a0000466a0000486a00004a6a00004c6a00004e6a0000506a0000526a0000546a0000566a0000586a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1033,9 +1033,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b06d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e662ffff4263ffff2a6bffff36f8ffffecf8ffff5cf9ffffd6faffff4a600000
+      m_ExpandedIDs: d6f8ffffdaf8ffffd6faffff52600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1416,9 +1416,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.2509774, y: 0.8080035, z: 0.82994556}
+    m_Target: {x: 0.07068915, y: 0.3918335, z: 1.2788396}
     speed: 2
-    m_Value: {x: -0.2509774, y: 0.8080035, z: 0.82994556}
+    m_Value: {x: 0.07068915, y: 0.3918335, z: 1.2788396}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1464,13 +1464,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.049726445, y: -0.046673555, z: 0.002121309, w: 0.99736035}
+    m_Target: {x: 0.13624412, y: 0.03536612, z: -0.0050810953, w: 0.9897183}
     speed: 2
-    m_Value: {x: 0.04974491, y: -0.0451914, z: 0.0020473485, w: 0.99773693}
+    m_Value: {x: 0.13629374, y: 0.033891987, z: -0.0048782327, w: 0.9900765}
   m_Size:
-    m_Target: 2.197827
+    m_Target: 2.0989249
     speed: 2
-    m_Value: 2.3013897
+    m_Value: 2.197827
   m_Ortho:
     m_Target: 0
     speed: 2
