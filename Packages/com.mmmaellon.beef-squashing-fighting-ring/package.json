@@ -3,7 +3,7 @@
     "displayName": "Beef Squashing Fighting Ring",
     "version": "1.1.3",
     "unity": "2022.3",
-    "description": "",
+    "description": "A pvp battle melee game in VRChat",
     "url": "https://github.com/MMMaellon/BeefSquashingFightingRing.git",
     "dependencies": {},
     "gitDependencies": {},
